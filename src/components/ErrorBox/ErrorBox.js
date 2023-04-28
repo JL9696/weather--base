@@ -9,13 +9,13 @@ const ErrorBox = ({ children }) => {
         Error
       </h1>
       <p>
-        {children}
+        There is no city named you typed{children}
       </p>
     </div>
   );
 };
 
-ErrorBox.propTypes = { 
+ErrorBox.propTypes = {
   children: PropTypes.string
 };
 
